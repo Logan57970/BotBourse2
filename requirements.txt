@@ -1,0 +1,4 @@
+lbc
+anthropic
+requests
+tzdata
