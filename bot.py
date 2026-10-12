@@ -49,7 +49,7 @@ MIN_SCORE = int(os.getenv("MIN_SCORE", "5"))            # score Claude minimum (
 # Phrase de disponibilité insérée dans les messages (à adapter)
 AVAILABILITY = os.getenv("AVAILABILITY", "Je peux passer très rapidement")
 
-DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "")
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "https://discord.com/api/webhooks/1559109020776927244/7fEr_Mg4fHsFxTqv-U3K5lrZYPnlIbvesMBiuyNi_X-x687osH58xDEAhwixYGQfb6ZX")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-haiku-5-5")
 PROXY_URL = os.getenv("PROXY_URL", "")  # ex: http://user:pass@host:port (optionnel)
